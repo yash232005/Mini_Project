@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.bg{
+    width: 30%;
+    background-color: #521b1b;
+    
+}
+.order {
+        border: 1px solid #521b1b;
+        padding: 20px;
+    
+      }
+      
+      .order form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .order input[type="text"],
+      .order input[type="number"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .order button {
+        padding: 10px 20px;
+        background-color: #463e3e;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+      }
+      button:hover {
+        background-color: #ffffff; /* Adjust the hover color as needed */
+        color: black;
+      }
